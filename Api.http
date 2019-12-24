@@ -1,0 +1,5 @@
+## 消费者消费测试
+GET http://localhost:8020/echo?msg=我是大佬
+Accept: application/json
+
+###
