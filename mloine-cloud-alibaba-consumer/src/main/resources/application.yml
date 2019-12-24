@@ -26,3 +26,10 @@ spring:
       # 取消延迟加载
       eager: true
 
+# actuator 相关辅助配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+

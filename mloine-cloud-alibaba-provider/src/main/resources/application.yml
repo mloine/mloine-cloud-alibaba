@@ -27,3 +27,14 @@ dubbo:
   registry:
     address: spring-cloud://localhost
 
+
+# actuator 相关辅助配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
